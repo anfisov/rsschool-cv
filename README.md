@@ -1,2 +1,2 @@
 # rsschool-cv
-im a pickle Nick, Morty
+https://anfisov.github.io/rsschool-cv/cv
