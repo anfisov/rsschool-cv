@@ -6,7 +6,8 @@ A little knowledge of C#, java, python, HTML.
 * From codewars:
 link at task [here](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1)
 my solution:
-```javascript
+***
+``` javascript
 function duplicateCount(text){
 const newText = text.toLowerCase()
 const array = newText.split('')
@@ -38,6 +39,7 @@ for (let key in newArray)
 return counter
 }
 ```
+***
 * Опыт работы. Junior Dev может указать пройденные курсы и тренинги, перечислить учебные проекты, или проекты, выполненные на фрилансе с указанием использованных навыков и ссылками на исходный код.
 * Образование (включая курсы, семинары, лекции, онлайн-обучение)
 Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
