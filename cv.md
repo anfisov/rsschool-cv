@@ -3,7 +3,7 @@
 * Non stop improve myself. I haven't any serious experience at programming, but it is interesting for me. I have some tiny experience at game dev using c# (with dictionary and forums). I'm very diligent at anything, can't stop until i found a solution.
 * A little knowledge of C#, java, python, HTML.
 * From codewars:
-link at task [here](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1).
+link on task [here](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1).
 My solution:
 
 ``` javascript
@@ -39,6 +39,6 @@ return counter
 }
 ```
 
-* Have not work experience
+* Have not programming work experience 
 * Bachelor, Institute for Radio-Electronics and Telecommunications
 * English pre-intermediate
