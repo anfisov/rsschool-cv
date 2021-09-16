@@ -9,46 +9,113 @@
 <body>
     <style>
         body {
-            background: #fff;
-            color: #000;
             font-family: Arial, Helvetica, sans-serif;
             font-size: 14px;
         }
-        header {
-            background:#e4b8b8;
-            width: 100%;
-            height: 55px;
-        }
+      
         #container {
-            background: #FFD700;
-            margin: auto auto;
-            text-align: center;
-            width: 80%;
-            height: 400px;
+            background: #808080;
+            left: 0;
+            top: 0;
+            width: 100%;
+            
         }
         #content {
-            background: #e4b8b8;
+            background: #e0e0e0;
             margin-left: auto;
             margin-right: auto;
-            width: 80%;
-            height: 280px;
+            width: 40%;
+            text-align: left;
+            padding: 30px;
+            padding-top: 70px;
+        }
+
+        #header {
+            background: #2e2e2e;
+            position: fixed;
+            left: 0;
+            top: 0;
+	        text-align: center;
+            width: 100%;
+            height: 50px;
+            padding-bottom: 20px;
+            color: white;
         }
         #footer {
-            background: #00BFFF;
-	        width: 100%;
-	        height: 40px;
+            background: #2e2e2e;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+	        text-align: center;
+            width: 100%;
+            height: 35px;
+            padding-top: 20px;
+            color: white;
+            
+            
+            
         }
         #clear {
             clear: both;
             }
+            
+            
     </style>
     <div id="container">
         <div id="header">
-        <h2>header (шапка сайта)</h2>
+        <h1>Nikita Anfisov - my CV</h1>
         </div>  
              
         <div id="content">
-        Основной контент страницы
+            <p><h2>Contacts</p></h2>
+            <p>co_0kie (telegram)</p> 
+            <p><h2>About myself</h2></p>
+            <p>Non stop improve myself. I haven't any serious experience at programming, but it is interesting for me. I have some tiny experience at game dev using c# (with dictionary and forums). I'm very diligent at anything, can't stop until i found a solution.</p>
+            <p><h2>Skills</h2></p>
+            <p>A little knowledge of C#, java, python, HTML.</p>
+            <p><h2>My solution of <a href="https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1">this</a> task:</h2></p>
+            <p>
+                <code>
+                    function duplicateCount(text){<br>
+const newText = text.toLowerCase()<br>
+const array = newText.split('')<br>
+
+let newArray =[]<br>
+for (i = 0; i < array.length; i++)<br>
+{<br>
+    let a = array[i]<br>
+    if (newArray[a] != undefined)<br>
+    {<br>
+        ++newArray[a]<br>
+    }<br>
+    else<br>
+    {<br>
+        newArray[a] = 1<br>
+    }<br>
+}<br>
+
+console.log(newArray)<br>
+
+let counter = 0<br>
+for (let key in newArray)<br>
+{<br>
+    if (newArray[key] > 1)<br>
+    {<br>
+        counter += 1<br>
+    }<br>
+}<br>
+return counter<br>
+}<br>
+                </code>
+            </p>
+
+<p><h2>Programming experience</h2></p>  
+<p>Have not programming work experience </p>
+<p><h2>Education</h2></p>
+<p>Bachelor, Institute for Radio-Electronics and Telecommunications</p>
+<p><h2>Knowledge of English</h2>
+</p><p>Pre-intermediate</p>
+<br><br><br><br><br><br><br><br>
         </div>
                                    
         <div id="footer">
